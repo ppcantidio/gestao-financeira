@@ -1,0 +1,16 @@
+[default]
+DEBUG = false
+SQLALCHEMY_DATABASE_URI = 'sqlite:///development.db'
+SECRET_KEY = "jadkfbsdkjbfbh"
+PASSWORD_SCHEMES = ['pbkdf2_sha512', 'md5_crypt']
+MONG_DB_NAME = 'gestao_financeira'
+
+
+
+[development]
+DEBUG = true
+MONGO_CONNECTION = 'localhost:27017'
+
+
+[production]
+SQLALCHEMY_DATABASE_URI = 'sqlite:///production.db'

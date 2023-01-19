@@ -1,0 +1,2 @@
+class ReceitaRecorrenteService:
+    pass
